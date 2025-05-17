@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    char* str;
-    scanf("%s", str);
-    printf("%s\?\?!\n", str);
+int main(void){
+
+  char name[51];
+
+  scanf("%s", name);
+
+  printf("%s??!", name);
 }
